@@ -1,0 +1,94 @@
+
+  body {
+    background-image: url("background.jpg");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+  }
+
+  .all {
+    width: 1150px;
+    height: 700px;
+    margin: auto;
+    padding: 40px;
+    background-color: rgba(0,0,0, 0.5);
+    font-family: 'Poppins';
+  }
+
+  .hv-center{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+  }
+
+  .layover{
+    width: 100%;
+    height: 100%;
+  }
+
+  .head{
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .logo {
+    width: 20%;
+    height: 20%;
+  }
+
+  .subtext{
+   font-size: 30px;
+   color: rgb(0, 221, 0);
+  }
+
+ .contenitore {
+  background-color: rgb(0, 221, 0);
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+ }
+
+  .objects {
+    margin-top: 40px;
+    color: white;
+    margin-left: 100px;
+}
+
+  .name {
+    font-size: 18px;
+  }
+
+  .position {
+    font-size: 14px;
+    font-weight:100;
+  }
+
+  .charge {
+    font-size: 14px;
+    font-weight:100;
+  }
+
+  .batterylevel{
+    height: 30px;
+    border-radius: 5px;
+    display: inline-block;
+    position:relative;
+  }
+
+  #medium{
+    width: 300px;
+    background: rgb(245, 180, 83);
+  }
+
+  #full{
+    width: 500px;
+    background: rgb(30, 195, 30);
+  }
+
+  #low{
+    width: 200px;
+    background: rgb(190, 65, 65);
+  }
